@@ -1,0 +1,54 @@
+body{
+  background-image: url(./image/WhatsApp\ Image\ 2024-10-29\ at\ 4.55.39\ PM.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+}
+
+label{
+color: green;
+}
+
+form h2{
+  color: green;
+  text-align: center;
+}
+
+
+
+form{
+  margin-left: 45rem;
+  padding: 20px;
+  background-color: rgb(193, 233, 193);
+  border-radius: 5px;
+}
+input{
+  margin: 10px 20px;
+  border: solid 0.5px green;
+  border-radius: 5px ;
+  height: 30px;
+  width: 250px;
+
+}
+::placeholder{
+  color: green;
+  padding: 10px;
+}
+#btn{
+  margin-top: 20px;
+  border: none; 
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  height: 35px;
+  width: 90%;
+  text-transform: uppercase;
+font-size: 12px;
+font-weight: 700;
+margin-left: 35px;
+  cursor: pointer;
+}
+#btn:hover{
+opacity: 0.8;
+}
